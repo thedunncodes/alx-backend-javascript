@@ -1,1 +1,1 @@
-# ES6 basics
+# Alx backend specialization: Javascript
