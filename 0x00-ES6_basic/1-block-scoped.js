@@ -4,10 +4,12 @@ export default function taskBlock(trueOrFalse) {
 
   if (trueOrFalse) {
     try {
-      const task = true;
-      const task2 = false;
+      task = true;
+      task2 = false;
     } 
-    catch (error) {};
+    catch (error) {
+      return [task, task2];
+    }
   }
 
   return [task, task2];
